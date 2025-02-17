@@ -242,6 +242,7 @@ nav a {
     display: flex;
     position: relative;
     margin-top: 120px;
+    width:1500px;
 }
 .second-textual-section .text-part {
     width: 60%;
