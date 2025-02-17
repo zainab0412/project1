@@ -424,7 +424,7 @@ display:inline-block;
 .footer {
    
     display: flex;
-    width: 1518px;
+    width: 1350px;
     height: 510px;
    background: linear-gradient(90deg, #743384 0%, #8F3E85 42.5%, #743384 100%);
     color: #ccc;
