@@ -592,3 +592,99 @@ padding: auto;
         .help-section h3 {
     text-align: center;
         }
+.second-textual-section .image-part4
+        {
+                   width: 40%;
+                display: flex;
+                align-items: center;
+                margin-left: 19px;
+                margin-top: -127px;
+            }
+        .second-textual-section .image-part4 .text{
+            font-size: 40px;
+            line-height: 22px;
+            color: #dfdbdb;
+            text-align: left;
+            margin-left: -380px;
+            margin-top: 374px;
+        }
+        .second-textual-section  {
+            width: 997px;
+            height:380;
+            margin-left: 125px;
+            background-repeat: no-repeat;
+            background-image: url('./Rectangle\ 12.png');
+        }
+        .second-textual-section .leaf{
+            position: absolute;
+            margin-left: 29px;
+            margin-top: 310px;
+        }
+        .second-textual-section {
+            min-height: 440px;
+            display: flex;
+        position: relative;
+            margin-top: 185px;
+        }
+        .second-textual-section .text-part {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'Cabin';
+            font-style: normal;
+            gap: 0px;
+            z-index: 1;
+            margin-left: 110px;
+            margin-top: -95px;
+        }
+        
+        .second-textual-section .text-part .big-text {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 60px;
+            color: #7F3997;
+        }
+        
+        .second-textual-section .text-part .small-text {
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 29px;
+            color: #353037;
+        }
+        
+        .second-textual-section .text-part .smaller-text {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: #353037;
+        }
+        
+        .second-textual-section .text-part button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 42px;
+            background: #F7AF00;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            margin-top: 15px;
+        }
+        .second-textual-section .image-part1 {
+            width: 80px;
+            height: 80px;
+            align-items: center;
+            margin-left: -10px;
+            margin-top: 240px;
+        }
+        
+        .second-textual-section .image1-part {
+            width: 100px;
+            height: 100px;
+            align-items: center;
+            margin-right: -180px;
+            margin-top: 200px;
+        }
