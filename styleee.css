@@ -8,6 +8,7 @@ body {
     color: #ccc;
     background-color: #fefdfe;
     box-sizing: border-box;
+    max-width:1500px;
 }
 
 .header1 {
