@@ -526,7 +526,7 @@ display:inline-block;
 .text {
     list-style: none;
     display: flex;
-    gap: 625px;
+    gap: 480px;
     font-size: 15px;
     color: white;
     margin-left: 130px;
