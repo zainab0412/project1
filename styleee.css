@@ -9,7 +9,7 @@ body {
     background-color: #fefdfe;
     box-sizing: border-box;
     max-width:1500px;
-}
+} 
 
 .header1 {
     display: flex;
@@ -322,7 +322,7 @@ nav a {
     justify-content: left;
     align-items: left;
     padding-top: 50px;
-    gap: 610px;
+    gap: 500px;
     color: black;
     font-size: 20px;
 
@@ -349,7 +349,7 @@ display:inline-block;
 
 .rectangle2 .group-top img {
     margin: 0 10px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .rectangle2 .boxes2 {
