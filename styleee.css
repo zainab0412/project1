@@ -410,8 +410,8 @@ display:inline-block;
 
 .help-section .help-container .help-box {
     float: left;
-    width: 33px;
-    padding: 200px;
+    width: 300px;
+    padding: 136px;
 }
 .help-section .help-container .help-box .circle{
     content: "";
