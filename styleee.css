@@ -526,10 +526,10 @@ display:inline-block;
 .text {
     list-style: none;
     display: flex;
-    gap: 480px;
+    gap: 490px;
     font-size: 15px;
     color: white;
-    margin-left: 130px;
+    margin-left: 119px;
     margin-top: 30px;
     }
 .help-section {
