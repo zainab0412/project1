@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 1500px;
 }
 
 body {
@@ -8,7 +9,8 @@ body {
     color: #ccc;
     background-color: #fefdfe;
     box-sizing: border-box;
-} 
+    max-width: 1500px;
+}
 
 .header1 {
     display: flex;
@@ -241,7 +243,7 @@ nav a {
     display: flex;
     position: relative;
     margin-top: 120px;
-    width:1500px;
+    width: fit-content;
 }
 .second-textual-section .text-part {
     width: 60%;
@@ -313,7 +315,7 @@ nav a {
     height: 570px;
     width: 1618px;
     margin-top: 100px;
-    margin-left: -100px;
+    margin-left: -160px;
 }
 
 .rectangle2 .group-top {
@@ -321,7 +323,7 @@ nav a {
     justify-content: left;
     align-items: left;
     padding-top: 50px;
-    gap: 500px;
+    gap: 510px;
     color: black;
     font-size: 20px;
 
@@ -348,7 +350,7 @@ display:inline-block;
 
 .rectangle2 .group-top img {
     margin: 0 10px;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 .rectangle2 .boxes2 {
@@ -356,7 +358,7 @@ display:inline-block;
     gap: 35px;
     margin-inline: 135px;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 300px;
 
 }
 
@@ -410,12 +412,11 @@ display:inline-block;
 
 .help-section .help-container .help-box {
     float: left;
-    width: 300px;
-    padding: 136px;
+    width: 33px;
+    padding: 200px;
 }
 .help-section .help-container .help-box .circle{
     content: "";
-    display: table;
     clear: both;
     margin-top: -120px;
 }
@@ -423,9 +424,8 @@ display:inline-block;
 /* Footer */
 
 .footer {
-   
     display: flex;
-    width: 1350px;
+    width: -10000px;
     height: 510px;
    background: linear-gradient(90deg, #743384 0%, #8F3E85 42.5%, #743384 100%);
     color: #ccc;
@@ -440,11 +440,10 @@ display:inline-block;
     align-items: center;
     border-bottom: 0px;
     color: #000000;
-    padding: 0px 10px;
     top: 20px;
-    gap: 15px;
     border: 0px 0px 1px 0px;
     opacity: 0px;
+    text-align: center;
 }
 
 .foot ul {
@@ -452,7 +451,6 @@ display:inline-block;
     display: flex;
     gap: 30px;
     font-size: 17px;
-    padding:5px 10px;
 }
 
 .foot ul li {
@@ -528,8 +526,8 @@ display:inline-block;
     gap: 490px;
     font-size: 15px;
     color: white;
-    margin-left: 119px;
-    margin-top: 30px;
+    margin-left: 120px;
+    margin-top: 10px;
     }
 .help-section {
      padding: 0px;
@@ -551,14 +549,16 @@ display:inline-block;
 .help-box {
     background: white;
     border-radius: 8px;
-    padding: 20px;
-    width: 30px;
+    padding: 0px 20px;
+    width: 5px;
     text-align: center;
+    max-width: 1500px;
+    margin-left: -80px;
  }
         
 .circle {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color:#a304b2;
     color: white;
  font-size: 18px;
@@ -567,32 +567,30 @@ display:inline-block;
 justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 0 auto 10px;
 }
         
  .help-box img {
-      width: 100px;
-     height: 100px;
+      width: 150px;
+     height: 150px;
             border-radius: 50%;
             margin-bottom: 10px;
+            align-items: center;
         }
         
  .help-box h3 {
-            color: #333;
+            color: black;
             text-align: center;
-            width: 200px;
+            width: 150px;
         }
         
         .help-box p {
-            color: #555;
+            color:black;
             font-size: 14px;
-text-align: center;
-padding: auto;
+            text-align: center;
+            width: 200px;
+            margin-top: 10px;
         }
-        .help-section h3 {
-    text-align: center;
-        }
-.second-textual-section .image-part4
+        .second-textual-section .image-part4
         {
                    width: 40%;
                 display: flex;
@@ -611,7 +609,6 @@ padding: auto;
         .second-textual-section  {
             width: 997px;
             height:380;
-            margin-left: 125px;
             background-repeat: no-repeat;
             background-image: url('./Rectangle\ 12.png');
         }
@@ -624,7 +621,7 @@ padding: auto;
             min-height: 440px;
             display: flex;
         position: relative;
-            margin-top: 185px;
+            margin-top: 100px;
         }
         .second-textual-section .text-part {
             width: 60%;
@@ -688,3 +685,4 @@ padding: auto;
             margin-right: -180px;
             margin-top: 200px;
         }
+        
